@@ -7,8 +7,9 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 form{
-    margin:auto;
-    padding: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    background: gray;
 }
 button{
     margin: 10px 50px 10px 50px;
@@ -24,6 +25,13 @@ button:hover{
     background: palevioletred;
     color:white;
 }
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+    font-weight: bold;
+}
 input{
-    margin:10px;
+    font-size: 18px;
+    color:blue;
+    margin: 3px 0;
 }
